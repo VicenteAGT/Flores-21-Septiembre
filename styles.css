@@ -101,7 +101,7 @@ span{
     font-size: 22px;
 }
 #header{
-    font-size: 20px;
+    font-size: 16px;
 }
 #felicidades{
     font-size: 16px; /* Tamaño del texto */
@@ -119,4 +119,5 @@ span{
     font-family:'SUSE Mono' !important;
     font-style: normal;
     color:yellow !important;
+
 }
