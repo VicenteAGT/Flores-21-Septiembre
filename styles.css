@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: darkgreen;
+    background-color: rgb(82, 170, 152);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
     text-align: center; /* Texto centrado */
     position: absolute; /* Posicionamiento absoluto */
     bottom: 18vh; /* Posición desde la parte superior (10% del alto de la pantalla) */
-    right: -5vh;
+    right: -1vh;
     font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
     width: 100%; /* Ocupar todo el ancho */
     z-index: 10; /* Asegurar que esté por encima de otros elementos */
@@ -65,18 +65,37 @@ body {
     #lyrics-container {
         font-size: 28px; /* Tamaño más grande para móviles */
     }
+    
 }
 
 @media (max-width: 480px) {
     #lyrics-container {
         font-size: 24px; /* Tamaño aún más grande para pantallas muy pequeñas */
+
     }
 
     .lyric {
         white-space: normal; /* Permitir saltos de línea en pantallas pequeñas */
         padding: 0 10px; /* Añadir un poco de padding para evitar que el texto toque los bordes */
     }
+    #felicidades{
+    font-size: 16px; /* Tamaño del texto */
+    color: rgb(243, 255, 70); /* Color blanco */
+    text-align: center; /* Texto centrado */
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 25vh; /* Posición desde la parte superior (10% del alto de la pantalla) */
+    right: 4vh;
+    }
+    #header {
+    font-size: 16px; /* Tamaño del texto */
+    color: rgb(243, 255, 70); /* Color blanco */
+    text-align: center; /* Texto centrado */
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 18vh; /* Posición desde la parte superior (10% del alto de la pantalla) */
+    left: 20px;
+    }
 }
+
 span{
     background-color:  rgb(249, 231, 93) !important;
     font-size: 22px;
@@ -90,7 +109,7 @@ span{
     text-align: center; /* Texto centrado */
     position: absolute; /* Posicionamiento absoluto */
     bottom: 25vh; /* Posición desde la parte superior (10% del alto de la pantalla) */
-    right: -5vh;
+    right: 20px;
     font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
     width: 100%; /* Ocupar todo el ancho */
     z-index: 10; /* Asegurar que esté por encima de otros elementos */
